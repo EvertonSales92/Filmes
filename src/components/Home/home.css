@@ -1,0 +1,52 @@
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 800px;
+}
+
+.list-movies{
+    margin: 15px;
+}
+
+
+.list-movies article{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.85);
+    border-radius: 10px;
+    margin-bottom: 10px;
+    padding: 15px;
+}
+
+.list-movies strong{
+    color: #D5DBDB;
+    margin-bottom: .5rem;
+    font-weight: 300;
+    font-size: 2.5rem;
+
+}
+img{
+  max-height: 350px;
+  width: 800px;  
+}
+
+.list-movies article a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FF5733 ;
+    height: 40px;
+    border-radius: 5px;
+    width: 100%;
+    color: #fff;
+    font-size: 24px;
+    text-decoration: none;
+    text-transform: uppercase;
+}

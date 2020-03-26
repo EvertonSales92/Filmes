@@ -1,0 +1,42 @@
+.movie{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #F2F3F4;
+    width: 70%;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.movie strong{
+    font-weight: 300;
+    font-size: 3rem;
+}
+
+.movie p{
+    font-style: italic;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.movie a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+    padding: 5px;
+    width: 80px;
+    border-radius: 10px;
+    border: 1px solid #FF5733;
+    text-decoration: none;
+    color: #FF5733;
+}
+
+.movie a:hover{
+    color: #fff;
+    background:#FF5733;
+    transition: all 0.50s;
+}
